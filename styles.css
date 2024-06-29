@@ -4,3 +4,15 @@ body {
     color: #000000;
     background-color: #e1e0e2;
 }
+
+.pop-up {
+    display: none;
+    display: 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
