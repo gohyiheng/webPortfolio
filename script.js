@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     for (var x = 0; x < readMore.length; x++) {
         (function(index) {
             readMore[index].addEventListener('click', function() {
-                popup[index].style.display = 'block';
+                popup[index].style.display = 'flex';
             });
         })(x);
     }
