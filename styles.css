@@ -7,31 +7,39 @@ a {
     text-decoration: none;
 }
 
+body {
+    margin: 0;
+    font-family: Garamond, serif;
+    color: #000000;
+    background-color: #e1e0e2;
+}
+
 .header-bar {
     width: 100%;
     background-color: rgb(204, 190, 190);
     color: white;
     line-height: 2.5;
     display: flex;
+    padding: 0 10px;
 }
 
 .header-button {
+    text-align: center;
     background-color: rgb(204, 190, 190); 
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
     font-size: 20px;
+    flex: 1;
 }
 
-.header-button:hover {
-    background-color: rgb(230, 222, 222); /* change color on hover */
+.intro {
+    width: 100%;
+    background-color: rgb(210, 209, 211);
+    padding: 20px;
 }
 
-body {
-    margin: 0;
-    font-family: Garamond, serif;
-    color: #000000;
-    background-color: #e1e0e2;
+.selected-works {
+    background-color: rgb(244, 230, 230);
 }
 
 .pop-up {
