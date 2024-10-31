@@ -1,57 +1,18 @@
-* {
-    box-sizing: border-box;
+:root {
+    --wood-dark: #9B8579;
+    --wood-medium: #BEB0A7;
+    --wood-light: #D5CAC3;
+    --background: #F3EFE9;
+    --word-color: #645A52;
+    --accent: #E6DDD3;
 }
 
-a {
-    color: initial;
-    text-decoration: none;
+body{
+    background-color: var(--background);
+    color: var(--word-color);
 }
 
-body {
-    margin: 0;
-    font-family: Garamond, serif;
-    color: #000000;
-    background-color: #e1e0e2;
-    text-align: center;
-}
-
-.header-bar {
-    width: 100%;
-    background-color: rgb(204, 190, 190);
-    color: white;
-    line-height: 2.5;
-    display: flex;
-    padding: 0 10px;
-}
-
-.header-button {
-    background-color: rgb(204, 190, 190); 
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    flex: 1;
-}
-
-.intro {
-    width: 100%;
-    background-color: rgb(210, 209, 211);
-    padding: 20px;
-}
-
-.selected-works {
-    background-color: rgb(244, 230, 230);
-}
-
-.pop-up {
-    display: none;
-    background-color: rgb(255, 255, 255);
-    justify-content: center;
-    align-items: center;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+.social-icon{
+    width: 50px;
+    height: 50px;
 }

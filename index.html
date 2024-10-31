@@ -1,71 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header-bar">
-        <a href="#" class="header-button">About me</a>
-        <a href="#" class="header-button">Projects</a>
-    </div>
-
+    <header>
+        <img src="" alt="Profile" class="profile-img">
+        <h1>Yi Heng Goh</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="/projects/projects.html">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
     <main>
-        <script src="script.js"></script>
-        <section class="intro">
-            <h1>temp placeholder</h1>
-            <p>temp placeholder</p>
-            <a href="#" class="profile-link">View profile →</a>
-        </section>
----------------------------------------------------------------------------------------------------------------------------------------
-        <section class="selected-work">
-            <h2>Selected work</h2>
-            <div class="selected-items">
-                <!-- image link  -->
-                <h3>Closing the gap: Analysis on socioeconomic progress for indigenous communities</h3>
-                <p>By creating a web-based site to support the national agreement on closing the gap by tracking, and analyzing progress towards key socioeconomic outcomes such as health, education and economic participation for Aboriginal and Torres Strait Islander people.</p>
-                <button class="read-more-btn">Read more</button> 
-            </div>
-            <div class="pop-up">
-                <span class="close">&times;</span>
-                <p>Temp content</p>
-            </div>
----------------------------------------------------------------------------------------------------------------------------------------
-            <div class="selected-items">
-                <!-- image link  -->
-                <h3>Project 2</h3>
-                <p>Short explanation</p>
-                <button class="read-more-btn">Read more</button> 
-            </div>
-            <div class="pop-up">
-                <span class="close">&times;</span>
-                <p>Temp content</p>
-            </div>
----------------------------------------------------------------------------------------------------------------------------------------
-            <div class="selected-items">
-                <!-- image link  -->
-                <h3>Project 3</h3>
-                <p>Short explanation</p>
-                <button class="read-more-btn">Read more</button> 
-            </div>
-            <div class="pop-up">
-                <span class="close">&times;</span>
-                <p>Temp content</p>
-            </div>
----------------------------------------------------------------------------------------------------------------------------------------
-            <div class="all-items">
-                <h3>View all projects</h3>
-                <button class="read-more-btn">Read more</button> 
-            </div>
-            <div class="pop-up">
-                <span class="close">&times;</span>
-                <p>Temp content</p>
-            </div>
----------------------------------------------------------------------------------------------------------------------------------------
+        <section id="about">
+            <h2>About Me</h2>
         </section>
         
+        <section id="projects">
+            <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>Temp project</p>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>Temp project</p>
+                </div>
+                <div class="project">
+                    <h3>Project Three</h3>
+                    <p>Temp project</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill-tag">Temp</span>
+                <span class="skill-tag">Temp</span>
+                <span class="skill-tag">Temp</span>
+                <span class="skill-tag">Temp</span>
+                <span class="skill-tag">Temp</span>
+                <span class="skill-tag">Temp</span>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me or just to say hello!</p>
+            <div class="social-links">
+                <a href="#"><img src = "./images/icons/gmail.png" alt="Gmail" class="social-icon"></a>
+                <a href="https://www.linkedin.com/in/yiheng-goh/"><img src = "./images/icons/linkedin.png" alt="Linkedin" class="social-icon"></a>
+                <a href="https://github.com/gohyiheng"><img src = "./images/icons/github.png" alt="Github" class="social-icon"></a>
+            </div>
+        </section>
     </main>
 </body>
 </html>
