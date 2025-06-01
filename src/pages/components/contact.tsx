@@ -1,51 +1,118 @@
 export default function Contact() {
   return (
-    <section className="max-w-xl mx-auto p-6 text-center text-gray-800" id="contact">
-      <h2 className="text-3xl font-bold mb-4">Contact</h2>
-      <p className="mb-6">
-        Feel free to reach out for collaborations, questions, or just to say hi!
-      </p>
+    <section className="px-8 py-16 mx-auto bg-gradient-to-b from-gray-50 to-neutral-50 min-h-screen flex items-center" id="contact">
+      <div className="max-w-4xl mx-auto w-full">
+        {/* Traditional Japanese-style heading */}
+        <div className="text-center mb-16">
+          <h2 className="text-5xl font-bold text-gray-800 mb-4 font-serif tracking-wider">
+            Contact
+          </h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-gray-600 to-gray-700 mx-auto rounded-full"></div>
+        </div>
 
-  {/* contact icons */}
-    <div className="flex justify-center items-center space-x-4">
-      {/* email */}
-      <a
-        href="mailto:yiheng29@gmail.com"
-        className="text-blue-600 hover:underline"
-      >
-        <img
-          src="/img/icons/gmail.png"
-          alt="gmail logo"
-          className="w-12 h-12"
-        />
-      </a>
-      {/* linkedin */}
-      <a
-        href="https://www.linkedin.com/in/yiheng-goh"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 hover:underline"
-      >
-        <img
-          src="/img/icons/linkedin.png"
-          alt="linkedin logo"
-          className="w-12 h-12"
-        />
-      </a>
-      {/* github */}
-      <a
-        href="https://github.com/gohyiheng"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 hover:underline"
-      >
-        <img
-          src="/img/icons/github.png"
-          alt="github logo"
-          className="w-12 h-12"
-        />
-      </a>
-    </div>
+        {/* Main contact card with traditional design */}
+        <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-200 overflow-hidden">
+          {/* Decorative top border */}
+          <div className="h-2 bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600"></div>
+          
+          <div className="p-12 text-center relative">
+            {/* Traditional corner decorations */}
+            <div className="absolute top-6 left-6 w-8 h-8 border-l-4 border-t-4 border-gray-400 rounded-tl-lg"></div>
+            <div className="absolute top-6 right-6 w-8 h-8 border-r-4 border-t-4 border-gray-400 rounded-tr-lg"></div>
+            <div className="absolute bottom-6 left-6 w-8 h-8 border-l-4 border-b-4 border-gray-400 rounded-bl-lg"></div>
+            <div className="absolute bottom-6 right-6 w-8 h-8 border-r-4 border-b-4 border-gray-400 rounded-br-lg"></div>
+
+            {/* Welcome message with calligraphy style */}
+            <div className="mb-12">
+              <p className="text-2xl text-gray-800 font-serif leading-relaxed relative">
+                <span className="text-4xl text-gray-600 absolute -left-8 -top-2">"</span>
+                Feel free to reach out for collaborations, questions, or just to say hi!
+                <span className="text-4xl text-gray-600 absolute -bottom-6 right-0">"</span>
+              </p>
+            </div>
+
+            {/* Contact icons with traditional Japanese styling */}
+            <div className="flex justify-center items-center space-x-12">
+              {/* Email */}
+              <a
+                href="mailto:yiheng29@gmail.com"
+                className="group relative transform hover:-translate-y-2 transition-all duration-300"
+              >
+                <div className="w-20 h-20 bg-gray-50 rounded-2xl shadow-lg group-hover:shadow-2xl border-2 border-gray-200 group-hover:border-gray-400 flex items-center justify-center transition-all duration-300">
+                  <img
+                    src="/img/icons/gmail.png"
+                    alt="gmail logo"
+                    className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap">
+                    Email
+                  </span>
+                </div>
+              </a>
+
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/yiheng-goh"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative transform hover:-translate-y-2 transition-all duration-300"
+              >
+                <div className="w-20 h-20 bg-gray-50 rounded-2xl shadow-lg group-hover:shadow-2xl border-2 border-gray-200 group-hover:border-gray-400 flex items-center justify-center transition-all duration-300">
+                  <img
+                    src="/img/icons/linkedin.png"
+                    alt="linkedin logo"
+                    className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap">
+                    LinkedIn
+                  </span>
+                </div>
+              </a>
+
+              {/* GitHub */}
+              <a
+                href="https://github.com/gohyiheng"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative transform hover:-translate-y-2 transition-all duration-300"
+              >
+                <div className="w-20 h-20 bg-gray-50 rounded-2xl shadow-lg group-hover:shadow-2xl border-2 border-gray-200 group-hover:border-gray-400 flex items-center justify-center transition-all duration-300">
+                  <img
+                    src="/img/icons/github.png"
+                    alt="github logo"
+                    className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="bg-gray-800 text-white px-3 py-1 rounded-full text-sm font-medium whitespace-nowrap">
+                    GitHub
+                  </span>
+                </div>
+              </a>
+            </div>
+
+            {/* Traditional Japanese-style bottom decoration */}
+            <div className="mt-16 flex justify-center">
+              <div className="flex space-x-3">
+                <div className="w-4 h-4 bg-gradient-to-br from-gray-600 to-gray-700 rotate-45"></div>
+                <div className="w-4 h-4 bg-gradient-to-br from-gray-500 to-gray-600 rotate-45"></div>
+                <div className="w-4 h-4 bg-gradient-to-br from-gray-600 to-gray-700 rotate-45"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Traditional closing element */}
+        <div className="text-center mt-12">
+          <p className="text-gray-700 font-serif text-lg">
+            ありがとうございます • Thank you
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
