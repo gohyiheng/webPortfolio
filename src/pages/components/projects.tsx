@@ -70,7 +70,6 @@ const Projects = () => {
             Projects
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-gray-600 to-gray-700 mx-auto rounded-full"></div>
-          <p className="text-gray-700 text-lg mt-6 font-serif">Crafted with passion and precision</p>
         </div>
 
         {/* Projects grid*/}
