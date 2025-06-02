@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section className="px-8 py-16 mx-auto bg-gradient-to-b from-gray-50 to-neutral-50 min-h-screen flex items-center" id="contact">
       <div className="max-w-4xl mx-auto w-full">
-        {/* Traditional Japanese-style heading */}
+        {/* heading */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-gray-800 mb-4 font-serif tracking-wider">
             Contact
@@ -10,28 +10,26 @@ export default function Contact() {
           <div className="w-24 h-1 bg-gradient-to-r from-gray-600 to-gray-700 mx-auto rounded-full"></div>
         </div>
 
-        {/* Main contact card with traditional design */}
+        {/* Main contact card*/}
         <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-200 overflow-hidden">
           {/* Decorative top border */}
           <div className="h-2 bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600"></div>
           
           <div className="p-12 text-center relative">
-            {/* Traditional corner decorations */}
+            {/* corner decorations */}
             <div className="absolute top-6 left-6 w-8 h-8 border-l-4 border-t-4 border-gray-400 rounded-tl-lg"></div>
             <div className="absolute top-6 right-6 w-8 h-8 border-r-4 border-t-4 border-gray-400 rounded-tr-lg"></div>
             <div className="absolute bottom-6 left-6 w-8 h-8 border-l-4 border-b-4 border-gray-400 rounded-bl-lg"></div>
             <div className="absolute bottom-6 right-6 w-8 h-8 border-r-4 border-b-4 border-gray-400 rounded-br-lg"></div>
 
-            {/* Welcome message with calligraphy style */}
+            {/* Welcome message*/}
             <div className="mb-12">
               <p className="text-2xl text-gray-800 font-serif leading-relaxed relative">
-                <span className="text-4xl text-gray-600 absolute -left-8 -top-2">"</span>
                 Feel free to reach out for collaborations, questions, or just to say hi!
-                <span className="text-4xl text-gray-600 absolute -bottom-6 right-0">"</span>
               </p>
             </div>
 
-            {/* Contact icons with traditional Japanese styling */}
+            {/* Contact icons */}
             <div className="flex justify-center items-center space-x-12">
               {/* Email */}
               <a
@@ -52,7 +50,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              {/* LinkedIn */}
+              {/* Linkedin */}
               <a
                 href="https://www.linkedin.com/in/yiheng-goh"
                 target="_blank"
@@ -73,7 +71,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              {/* GitHub */}
+              {/* Github */}
               <a
                 href="https://github.com/gohyiheng"
                 target="_blank"
@@ -109,7 +107,7 @@ export default function Contact() {
         {/* Traditional closing element */}
         <div className="text-center mt-12">
           <p className="text-gray-700 font-serif text-lg">
-            ありがとうございます • Thank you
+            ありがとうございます
           </p>
         </div>
       </div>

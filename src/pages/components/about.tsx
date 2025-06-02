@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section className="px-8 py-16 mx-auto bg-gradient-to-b from-gray-50 to-neutral-50 min-h-screen flex items-center">
       <div className="max-w-5xl mx-auto">
-        {/* Traditional Japanese-style heading */}
+        {/* heading */}
         <div className="text-center mb-12">
           <h2 className="text-5xl font-bold text-gray-800 mb-4 font-serif tracking-wider">
             About
@@ -18,15 +18,14 @@ const About = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-gray-600 to-gray-700 mx-auto rounded-full"></div>
         </div>
 
-        {/* Main content with traditional paper-like background */}
+        {/* Main content*/}
         <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-200 overflow-hidden">
-          {/* Decorative top border */}
+          {/* top border */}
           <div className="h-2 bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600"></div>
           
           <div className="p-12">
-            {/* Traditional Japanese-style text layout */}
             <div className="relative">
-              {/* Decorative corner elements */}
+              {/* corner elements */}
               <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-gray-600 rounded-tl-lg"></div>
               <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-gray-600 rounded-tr-lg"></div>
               <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-gray-600 rounded-bl-lg"></div>
@@ -34,17 +33,15 @@ const About = () => {
               
               <div className="px-8 py-6">
                 <p className="text-xl text-gray-800 leading-relaxed font-serif text-center mb-8 relative">
-                  <span className="text-4xl text-gray-600 absolute -left-6 -top-2">"</span>
                   I'm a builder and problem-solver who enjoys creating solutions through technology. 
                   I have hands-on experience with both frontend and backend technologies, and I like 
                   working on things that make an impact. Whether it's coding, infrastructure, or 
                   collaborating in teams, I'm always eager to learn and contribute.
-                  <span className="text-4xl text-gray-600 absolute -bottom-6 right-0">"</span>
                 </p>
               </div>
             </div>
 
-            {/* Skills section with traditional Japanese aesthetics */}
+            {/* Skills section */}
             <div className="mt-12">
               <h3 className="text-2xl font-bold text-gray-800 text-center mb-8 font-serif">
                 Technical Skills
@@ -64,7 +61,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Traditional Japanese-style bottom decoration */}
+        {/* bottom decoration */}
         <div className="mt-12 flex justify-center">
           <div className="flex space-x-2">
             <div className="w-3 h-3 bg-gray-600 rounded-full"></div>
