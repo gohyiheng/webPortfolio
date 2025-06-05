@@ -42,7 +42,9 @@ export default function Recommender() {
           <div className="h-2 bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600"></div>
           <div>
             <h2>CSV Output:</h2>
-            <pre>{text}</pre>
+            <pre className="max-h-144 overflow-y-auto p-4">    
+              {text}
+            </pre>
           </div>
         </div>
         {/* Contact*/}
