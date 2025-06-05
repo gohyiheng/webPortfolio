@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import ClosingTheGap from './ctg';
 import VetCare from './vetCare';
 import Woofya from './woofya';
+import JapanCities from './JapanCities';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
@@ -23,6 +24,8 @@ const Projects = () => {
         return <VetCare />;
       case 'woofya':
         return <Woofya />;
+      case 'Japan-cities':
+        return <JapanCities />;
       default:
         return null;
     }
@@ -55,22 +58,16 @@ const Projects = () => {
       subtitle: 'Simple interactive game project',
     },
     {
-      id: 'lc3',
-      title: 'LC3 in Minecraft',
-      subtitle: 'Minecraft-based simulation of the LC3 architecture',
+      id: 'Japan-cities',
+      title: 'Japan Cities Ranking',
+      subtitle: 'Ranks cities in japan based on data from japan guide',
     },
   ];
 
   return (
-    <section className="px-8 py-16 mx-auto bg-gradient-to-b from-neutral-50 to-gray-50 min-h-screen">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-5xl pt-12 mx-auto">
         {/* heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-gray-800 mb-4 font-serif tracking-wider">
-            Projects
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-gray-600 to-gray-700 mx-auto rounded-full"></div>
-        </div>
+
 
         {/* Projects grid*/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -83,15 +80,7 @@ const Projects = () => {
               {/* Decorative top accent */}
               <div className={`h-2 bg-gradient-to-r from-white-300 to-gray-700`}></div>
               
-              <div className="p-8 relative">
-                {/* corner decoration */}
-                <div className="absolute top-6 right-6 w-6 h-6 border-r-2 border-t-2 border-gray-400 rounded-tr-lg"></div>
-                <div className="absolute bottom-6 left-6 w-6 h-6 border-l-2 border-b-2 border-gray-400 rounded-bl-lg"></div>
-                
-                {/* Project number */}
-                <div className="absolute top-4 left-4 w-8 h-8 bg-gradient-to-br from-gray-600 to-gray-700 rounded-full flex items-center justify-center text-white font-bold text-sm">
-                  {index + 1}
-                </div>
+              <div className="pt-4 pr-8 pb-8 pl-4 relative">
 
                 <div className="mt-6">
                   <h3 className="text-2xl font-bold text-gray-800 mb-3 font-serif group-hover:text-gray-600 transition-colors duration-300">
@@ -111,8 +100,15 @@ const Projects = () => {
               </div>
             </div>
           ))}
+        </div>  
+        {/* bottom decoration */}
+        <div className="mt-12 flex justify-center">
+          <div className="flex space-x-2">
+            <div className="w-3 h-3 bg-gray-600 rounded-full"></div>
+            <div className="w-3 h-3 bg-gray-500 rounded-full"></div>
+            <div className="w-3 h-3 bg-gray-600 rounded-full"></div>
+          </div>
         </div>
-
         {/* Modal */}
         {selectedProject && (
           <div
@@ -123,9 +119,7 @@ const Projects = () => {
               className="bg-white rounded-2xl w-full max-w-6xl h-[85vh] relative overflow-hidden shadow-2xl border-2 border-gray-200"
               onClick={(e) => e.stopPropagation()}
             >
-              {/*  top border */}
-              <div className="h-2 bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600"></div>
-              
+
               {/* Close button */}
               <button
                 className="absolute top-4 right-4 w-10 h-10 bg-gradient-to-br from-gray-600 to-gray-700 text-white rounded-full hover:from-gray-700 hover:to-gray-800 transition-all duration-300 flex items-center justify-center z-10 shadow-lg"
@@ -144,7 +138,6 @@ const Projects = () => {
           </div>
         )}
       </div>
-    </section>
   );
 };
 export default Projects;

@@ -2,6 +2,7 @@ import About from './components/about'
 import Contact from './components/contact'
 import Navbar from './components/navbar'
 import Projects from './components/projects'
+import CSVRecommendationsApp from './recommender'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <CSVRecommendationsApp />
     </div>
   )
 }

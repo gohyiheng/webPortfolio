@@ -1,14 +1,8 @@
 export default function Contact() {
   return (
-    <section className="px-8 py-16 mx-auto bg-gradient-to-b from-gray-50 to-neutral-50 min-h-screen flex items-center" id="contact">
-      <div className="max-w-4xl mx-auto w-full">
+      <div className="max-w-5xl pt-12 mx-auto">
         {/* heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-gray-800 mb-4 font-serif tracking-wider">
-            Contact
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-gray-600 to-gray-700 mx-auto rounded-full"></div>
-        </div>
+
 
         {/* Main contact card*/}
         <div className="bg-white rounded-2xl shadow-2xl border-2 border-gray-200 overflow-hidden">
@@ -111,6 +105,5 @@ export default function Contact() {
           </p>
         </div>
       </div>
-    </section>
   );
 }

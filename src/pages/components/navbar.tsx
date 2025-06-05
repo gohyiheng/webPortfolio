@@ -3,17 +3,17 @@ import React from 'react';
 const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-gray-50 to-neutral-50 border-b-2 border-gray-200 shadow-lg backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto px-8 py-6">
+      <div className="max-w-5xl mx-auto px-8 py-6">
         <div className="flex justify-between items-center">
-            <a href="#about" className="hover:text-gray-600 transition-all duration-300 flex items-center space-x-2">
+            <div className="hover:text-gray-600 transition-all duration-300 flex items-center space-x-2">
               <span className="font-serif">Yiheng's Portfolio</span>
-            </a>
-         
+            </div>
+
           {/* Navigation menu */}
           <ul className="flex space-x-12 text-lg font-medium">
             <li className="relative">
               <a
-                href="/aboutDescriptions"
+                href="/aboutDescription"
                 className="text-gray-800 hover:text-gray-600 transition-all duration-300 relative group py-2"
               >
                 About
