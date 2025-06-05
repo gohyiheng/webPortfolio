@@ -189,12 +189,12 @@ export default function JapanCities() {
         </section>
 
     <section className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-8 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-800 mb-3">See It in Action</h3>
+        <h3 className="text-xl font-semibold text-gray-800 mb-3">Try the live demo</h3>
         <p className="text-gray-600 leading-relaxed mb-4">
-            Watch the full demo showcasing data visualization, user interactions, and progress tracking features.
+             Test out the interactive demo to experience data visualization, ranking firsthand.
         </p>
         <a
-            href="/recommender"
+            href="/tmp"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors font-medium"
