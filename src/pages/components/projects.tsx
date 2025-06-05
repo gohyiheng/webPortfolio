@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
-import ClosingTheGap from './ctg';
-import VetCare from './vetCare';
-import Woofya from './woofya';
-import JapanCities from './JapanCities';
+import ClosingTheGap from './projects/ctg';
+import VetCare from './projects/vetCare';
+import Woofya from './projects/woofya';
+import JapanCities from './projects/JapanCities';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
