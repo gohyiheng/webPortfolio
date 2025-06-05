@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="max-w-5xl mx-auto px-8 py-6">
         <div className="flex justify-between items-center">
             <div className="hover:text-gray-600 transition-all duration-300 flex items-center space-x-2">
-              <span className="font-serif">Yiheng's Portfolio</span>
+              <a href='/' className="font-serif">Yiheng's Portfolio</a>
             </div>
 
           {/* Navigation menu */}
