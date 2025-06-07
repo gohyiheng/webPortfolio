@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React, { useState } from 'react';
 import ClosingTheGap from './projects/ctg';
 import VetCare from './projects/vetCare';
@@ -77,7 +76,7 @@ const Projects = () => {
 
         {/* Projects grid*/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
               key={project.id}
               onClick={() => handleProjectClick(project.id)}

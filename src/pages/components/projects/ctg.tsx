@@ -11,7 +11,7 @@ export default function ClosingTheGap() {
       <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-8 shadow-sm">
         <h3 className="text-xl font-semibold text-gray-800 mb-3">What It Does</h3>
         <p className="text-gray-600 leading-relaxed mb-4">
-          A full-stack web application that tracks progress toward Australia's National Agreement on Closing the Gap.
+          A full-stack web application that tracks progress toward Australia&#39;s National Agreement on Closing the Gap.
           Features interactive data visualizations and insights to help government officials, Indigenous leaders, 
           and the public understand key outcomes and progress over time.
         </p>

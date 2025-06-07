@@ -28,10 +28,10 @@ const About = () => {
               
               <div className="px-8 py-6">
                 <p className="text-xl text-gray-800 leading-relaxed font-serif text-center mb-8 relative">
-                  I'm a builder and problem-solver who enjoys creating solutions through technology. 
+                  I&#39;m a builder and problem-solver who enjoys creating solutions through technology. 
                   I have hands-on experience with both frontend and backend technologies, and I like 
-                  working on things that make an impact. Whether it's coding, infrastructure, or 
-                  collaborating in teams, I'm always eager to learn and contribute.
+                  working on things that make an impact. Whether it&#39;s coding, infrastructure, or 
+                  collaborating in teams, I&#39;m always eager to learn and contribute.
                 </p>
               </div>
             </div>
@@ -42,7 +42,7 @@ const About = () => {
                 Technical Skills
               </h3>
               <div className="flex flex-wrap gap-4 justify-center">
-                {keywords.map((word, index) => (
+                {keywords.map((word) => (
                   <span
                     key={word}
                     className="group relative bg-gray-50 text-gray-800 px-6 py-3 rounded-full font-medium text-sm shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 hover:border-gray-400 transform hover:-translate-y-1"

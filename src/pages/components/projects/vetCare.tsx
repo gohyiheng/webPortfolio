@@ -30,7 +30,7 @@ export default function VetCare() {
               <div className="w-2 h-2 bg-gray-700 rounded-full mr-3"></div>
               <h4 className="font-medium text-gray-800">Medical Records</h4>
             </div>
-            <p className="text-sm text-gray-600">Secure access to your pet's complete medical history</p>
+            <p className="text-sm text-gray-600">Secure access to your pet&#39;s complete medical history</p>
           </div>
           
           <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-100">

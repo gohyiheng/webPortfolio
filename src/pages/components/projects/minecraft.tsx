@@ -112,7 +112,7 @@ export default function VacuumGame() {
             <h3 className="text-xl font-semibold text-gray-800 mb-3">Features</h3>
             <p className="text-gray-600 leading-relaxed mb-4">
                 Dynamic village generation with intelligent algorithms that create unique, realistic 
-                settlements perfectly integrated into Minecraft's natural world.
+                settlements perfectly integrated into Minecraft&#39;s natural world.
             </p>
 
             <div className="grid md:grid-cols-2 gap-4">

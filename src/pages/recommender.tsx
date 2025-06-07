@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Papa from 'papaparse';
 import Navbar from "./components/navbar";
+import Contact from "./components/contact";
 
 export default function Recommender() {
 
@@ -48,23 +49,7 @@ export default function Recommender() {
           </div>
         </div>
         {/* Contact*/}
-        <div className="mt-12 bg-white rounded-2xl shadow-2xl border-2 border-gray-200 overflow-hidden">
-          <div className="h-2 bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600"></div>
-          <div className="p-8 text-center">
-            <h3 className="text-xl font-medium text-gray-900 mb-4 font-serif">Let's Connect</h3>
-            <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-              I'm actively seeking opportunities to begin my professional journey. If you're looking for someone who brings systematic thinking, continuous learning, and fresh perspectives to your team, I'd love to hear from you.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/aboutProjects" className="px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors duration-200 font-medium text-center">
-                View Projects
-              </a>
-              <a href="#contact" className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors duration-200 font-medium text-center">
-                Contact Me
-              </a>
-            </div>
-          </div>
-        </div>
+        < Contact />
       </div>
   </section>
 
