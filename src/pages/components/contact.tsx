@@ -1,3 +1,6 @@
+import Image from 'next/image';
+
+
 export default function Contact() {
   return (
       <div className="max-w-5xl pt-12 mx-auto">
@@ -31,7 +34,7 @@ export default function Contact() {
                 className="group relative transform hover:-translate-y-2 transition-all duration-300"
               >
                 <div className="w-20 h-20 bg-gray-50 rounded-2xl shadow-lg group-hover:shadow-2xl border-2 border-gray-200 group-hover:border-gray-400 flex items-center justify-center transition-all duration-300">
-                  <img
+                  <Image
                     src="/img/icons/gmail.png"
                     alt="gmail logo"
                     className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
@@ -52,7 +55,7 @@ export default function Contact() {
                 className="group relative transform hover:-translate-y-2 transition-all duration-300"
               >
                 <div className="w-20 h-20 bg-gray-50 rounded-2xl shadow-lg group-hover:shadow-2xl border-2 border-gray-200 group-hover:border-gray-400 flex items-center justify-center transition-all duration-300">
-                  <img
+                  <Image
                     src="/img/icons/linkedin.png"
                     alt="linkedin logo"
                     className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
@@ -73,7 +76,7 @@ export default function Contact() {
                 className="group relative transform hover:-translate-y-2 transition-all duration-300"
               >
                 <div className="w-20 h-20 bg-gray-50 rounded-2xl shadow-lg group-hover:shadow-2xl border-2 border-gray-200 group-hover:border-gray-400 flex items-center justify-center transition-all duration-300">
-                  <img
+                  <Image
                     src="/img/icons/github.png"
                     alt="github logo"
                     className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
