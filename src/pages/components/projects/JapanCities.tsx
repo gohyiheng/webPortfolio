@@ -3,7 +3,7 @@ export default function JapanCities() {
     <div className="mx-auto p-8 space-y-8 bg-gradient-to-br from-gray-50 to-neutral-50 min-h-screen">
         <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-gray-800 mb-3">
-            Japan Cities Ranking
+            Japan Travel Recommender
         </h2>
         <p className="text-lg text-gray-600">City Recommendation System</p>
         </div>
@@ -11,7 +11,7 @@ export default function JapanCities() {
         <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-8 shadow-sm">
         <h3 className="text-xl font-semibold text-gray-800 mb-3">What It Does</h3>
         <p className="text-gray-600 leading-relaxed mb-4">
-            A comprehensive travel platform that helps discover the perfect Japanese destinations based on your various rankings. 
+            A travel platform that helps discover the perfect Japanese destinations based on various rankings types. 
             Using web-scraped data from Japan Guide, the system provides recommendations ranging from 
             popular tourist spots to hidden gems across all prefectures and regions.
         </p>

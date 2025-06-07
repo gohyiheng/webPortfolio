@@ -4,6 +4,8 @@ import ClosingTheGap from './projects/ctg';
 import VetCare from './projects/vetCare';
 import Woofya from './projects/woofya';
 import JapanCities from './projects/JapanCities';
+import VacuumGame from './projects/vacuum';
+import MinecraftVillageGenerator from './projects/minecraft';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
@@ -26,6 +28,10 @@ const Projects = () => {
         return <Woofya />;
       case 'Japan-cities':
         return <JapanCities />;
+      case 'vacuum-game':
+        return <VacuumGame />;
+      case 'village-gen':
+        return <MinecraftVillageGenerator />
       default:
         return null;
     }
@@ -59,7 +65,7 @@ const Projects = () => {
     },
     {
       id: 'Japan-cities',
-      title: 'Japan Cities Ranking',
+      title: 'Japan Travel Recommender',
       subtitle: 'Ranks cities in japan based on data from japan guide',
     },
   ];
@@ -79,9 +85,9 @@ const Projects = () => {
             >
               {/* Decorative top accent */}
               <div className={`h-2 bg-gradient-to-r from-white-300 to-gray-700`}></div>
-              
-              <div className="pt-4 pr-8 pb-8 pl-4 relative">
 
+              {/* card content */}
+              <div className="pt-4 pr-8 pb-8 pl-4 relative">
                 <div className="mt-6">
                   <h3 className="text-2xl font-bold text-gray-800 mb-3 font-serif group-hover:text-gray-600 transition-colors duration-300">
                     {project.title}
