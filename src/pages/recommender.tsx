@@ -4,7 +4,7 @@ import Navbar from "./components/navbar";
 
 export default function Recommender() {
 
-  const [ text, setText ] = useState();
+  const [ text, setText ] = useState<string>();
   useEffect(() =>{
     Papa.parse('/japan_recommendation.csv',{
       download: true, 

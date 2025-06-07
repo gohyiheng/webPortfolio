@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import Navbar from './components/navbar';
-
 export default function AboutPage() {
-  const [activeSection, setActiveSection] = useState('journey');
+
+  type SectionKey = 'journey' | 'experience' | 'interests' | 'photography' | 'philosophy';
+  const [activeSection, setActiveSection] = useState<SectionKey>('journey');
 
   const sections = {
     journey: {
@@ -167,7 +168,7 @@ export default function AboutPage() {
                       {Object.entries(sections).map(([key, section]) => (
                         <button
                           key={key}
-                          onClick={() => setActiveSection(key)}
+                          onClick={() => setActiveSection(key as SectionKey)}
                           className={`py-4 px-2 border-b-2 font-medium text-sm whitespace-nowrap transition-colors duration-200 ${
                             activeSection === key
                               ? 'border-gray-700 text-gray-900'
