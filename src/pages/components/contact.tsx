@@ -37,6 +37,8 @@ export default function Contact() {
                   <Image
                     src="/img/icons/gmail.png"
                     alt="gmail logo"
+                    width={40}
+                    height={40}
                     className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
@@ -58,6 +60,8 @@ export default function Contact() {
                   <Image
                     src="/img/icons/linkedin.png"
                     alt="linkedin logo"
+                      width={40}
+                      height={40}
                     className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
@@ -79,6 +83,8 @@ export default function Contact() {
                   <Image
                     src="/img/icons/github.png"
                     alt="github logo"
+                    width={40}
+                    height={40}
                     className="w-10 h-10 group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
