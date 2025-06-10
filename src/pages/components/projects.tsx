@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import ClosingTheGap from './projects/ctg';
-import VetCare from './projects/vetCare';
-import Woofya from './projects/woofya';
-import JapanCities from './projects/JapanCities';
-import VacuumGame from './projects/vacuum';
-import MinecraftVillageGenerator from './projects/minecraft';
+import ClosingTheGap from '../projects_summary/ctg';
+import VetCare from '../projects_summary/vetCare';
+import Woofya from '../projects_summary/woofya';
+import JapanCities from '../projects_summary/JapanCities';
+import VacuumGame from '../projects_summary/vacuum';
+import MinecraftVillageGenerator from '../projects_summary/minecraft';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);

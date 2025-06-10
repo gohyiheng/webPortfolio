@@ -1,4 +1,4 @@
-export default function VacuumGame() {
+export default function MinecraftVillageGenerator() {
     return (
     <div className="mx-auto p-8 space-y-8 bg-gradient-to-br from-gray-50 to-neutral-50">
         <div className="text-center mb-8">
@@ -137,27 +137,37 @@ export default function VacuumGame() {
             </div>
         </section>
 
-        <section className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-8 shadow-sm">
-            <h3 className="text-xl font-semibold text-gray-800 mb-3">See It in Action</h3>
- <div className="flex flex-col space-y-3 px-4 max-w-45">
-    <a
-        href="https://www.youtube.com/watch?v=raSy0x0HETk"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center bg-gray-600 text-white px-4 py-3 rounded-lg hover:bg-gray-700 transition-colors font-medium w-full"
-    >
-        Watch Demo →
-    </a>
-    <a
-        href="https://github.com/athul-tmp/Minecraft-Village-Generator"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center justify-center bg-gray-600 text-white px-4 py-3 rounded-lg hover:bg-gray-700 transition-colors font-medium w-full"
-    >
-        Visit github →
-    </a>
-</div>
+        <section className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-8 shadow-sm text-center">
+            <h3 className="text-xl font-semibold text-gray-800 mb-3">For more information</h3>
+            <p className="text-gray-600 leading-relaxed mb-4">
+                Watch the full demo showcasing data visualization, user interactions, and progress tracking features, view the source code or view more information about the project.
+            </p>
+            <a
+                href="https://www.youtube.com/watch?v=raSy0x0HETk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-300 hover:text-gray-800 transition-colors font-medium mb-4"
+            >
+                Watch Demo →
+            </a>
+            <a
+                href="https://drive.google.com/file/d/1kmUzmaVhK5Ifna0Uw_fqj-_BH6J9Y8je/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-300 hover:text-gray-800 transition-colors font-medium mb-4"
+            >
+                View more information about the project →
+            </a>
+            <a
+                href="https://github.com/athul-tmp/Minecraft-Village-Generator"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-300 hover:text-gray-800 transition-colors font-medium"
+            >
+                View source code →
+            </a>
         </section>
+
     </div>
     );
 }

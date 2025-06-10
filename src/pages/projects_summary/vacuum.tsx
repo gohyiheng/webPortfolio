@@ -144,18 +144,27 @@ export default function VacuumGame() {
           </div>
         </div>
       </section>
-            <section className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-8 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-800 mb-3">See It in Action</h3>
+
+      <section className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-8 shadow-sm items-center text-center">
+        <h3 className="text-xl font-semibold text-gray-800 mb-3">For more information</h3>
         <p className="text-gray-600 leading-relaxed mb-4">
-          Watch the demo of the vacuum cleaner game here.
+            Watch the full demo showcasing data visualization, user interactions, and progress tracking features or view more information about the project.
         </p>
         <a
           href="https://drive.google.com/file/d/1v9nMCXE8HfmYHO5BDky8mZ8Tvb6RySVh/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors font-medium"
+          className="block items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-300 hover:text-gray-800 transition-colors font-medium mb-4"
         >
           Watch Demo →
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1kmUzmaVhK5Ifna0Uw_fqj-_BH6J9Y8je/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-300 hover:text-gray-800 transition-colors font-medium"
+        >
+          View more information about the project →
         </a>
       </section>
     </div>
