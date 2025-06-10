@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-r from-gray-50 to-neutral-50 border-b-2 border-gray-200 shadow-lg backdrop-blur-sm">
+    <nav className="fixed top-0 left-0 right-0 mb-6 z-50 bg-gradient-to-r from-gray-50 to-neutral-50 border-b-2 border-gray-200 shadow-lg backdrop-blur-sm">
       <div className="max-w-5xl mx-auto px-8 py-6">
         <div className="flex justify-between items-center">
             <div className="hover:text-gray-600 transition-all duration-300 flex items-center space-x-2">
