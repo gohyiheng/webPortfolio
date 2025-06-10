@@ -1,5 +1,5 @@
-  import { useState } from 'react';
-  import Navbar from './components/navbar';
+import { useState } from 'react';
+import Navbar from './components/navbar';
 import Contact from './components/contact';
   export default function AboutPage() {
 

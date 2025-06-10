@@ -66,16 +66,19 @@ const Projects = () => {
       }`}
     >
       {/* Image */}
-      <div className="w-full md:w-[60%] h-64 md:h-[500px] flex justify-center items-center overflow-hidden group p-4">
-        <img
-          src={project.image}
-          alt={project.title}
-          className="w-full h-full object-cover rounded-2xl transition-transform duration-700 group-hover:scale-[1.02] shadow-lg"
-          sizes="(max-width: 768px) 100vw, 65vw"
-        />
+      <div className="w-full md:w-[60%] h-64 md:h-[500px] flex justify-center items-center overflow-hidden group p-4 relative">
+        {project.image && (
+          <Image
+            src={project.image}
+            alt={project.title}
+            fill
+            className="object-cover rounded-2xl transition-transform duration-700 group-hover:scale-[1.02] shadow-lg"
+            sizes="(max-width: 768px) 100vw, 60vw"
+          />
+        )}
       </div>
       {/* Text */}
-      <div className="w-full md:w-[40%] px-12 py-4 flex flex-col justify-center h-64 md:h-[500px]">
+      <div className="w-full md:w-[40%] px-12 py-6 flex flex-col justify-center h-64 md:h-[500px]">
         <h2 className="text-4xl text-center font-bold text-gray-800 mb-6 leading-tight">
           {project.title}
         </h2>
