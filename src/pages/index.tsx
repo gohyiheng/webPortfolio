@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 import About from './components/about'
 import Contact from './components/contact'
 import Navbar from './components/navbar'
@@ -18,6 +20,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <SpeedInsights />
     </div>
   )
 }
