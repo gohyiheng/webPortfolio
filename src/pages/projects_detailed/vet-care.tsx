@@ -1,8 +1,10 @@
-    import Contact from "../components/contact";
-    import Navbar from "../components/navbar";
-    import Image from "next/image";
+import Link from "next/link";
+import Contact from "../components/contact";
+import Navbar from "../components/navbar";
+import Image from "next/image";
 
-    export default function VetCare() {
+
+export default function VetCare() {
     return (
         <>
         <Navbar />
@@ -126,7 +128,7 @@
                             </h3>
                             <p className="text-gray-600 leading-relaxed">
                             Our intelligent booking system allows pet owners to easily schedule appointments with real-time availability checking. 
-                            Pet owners can view, modify, or cancel their appointments through an intuitive interface that connects seamlessly with the veterinary practice's scheduling system.
+                            Pet owners can view, modify, or cancel their appointments through an intuitive interface that connects seamlessly with the veterinary practice&#39s scheduling system.
                             </p>
                             <ul className="space-y-2 text-sm text-gray-600">
                                 <li className="flex items-center">
@@ -395,10 +397,8 @@
                 </p>
                 
                 <div className="grid md:grid-cols-1 gap-6 max-w-2xl mx-auto">
-                    <a
+                    <Link
                     href="https://drive.google.com/file/d/1EHZNqgNaIbFR42cohI205vCX2Q0ieUz7/view?usp=drive_link"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 hover:bg-white transition-all duration-300 border border-white/50"
                     >
                     <div className="space-y-4">
@@ -416,7 +416,7 @@
                         Full walkthrough showcasing features, user interactions, and system capabilities
                         </p>
                     </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

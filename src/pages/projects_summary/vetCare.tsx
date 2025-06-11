@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function VetCare() {
   return (
     <div className="mx-auto p-8 space-y-8 bg-gradient-to-br from-gray-50 to-neutral-50 min-h-screen">
@@ -126,20 +128,19 @@ export default function VetCare() {
         <p className="text-gray-600 leading-relaxed mb-4">
           Watch the full demo showcasing data visualization, user interactions, and progress tracking features or view more information about the project.
         </p>
-        <a
+        <Link
           href="https://drive.google.com/file/d/1EHZNqgNaIbFR42cohI205vCX2Q0ieUz7/view?usp=drive_link"
           target="_blank"
-          rel="noopener noreferrer"
           className="block items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-300 hover:text-gray-800 transition-colors font-medium mb-4"
         >
           Watch Demo →
-        </a>
-        <a
+        </Link>
+        <Link
           href="/projects_detailed/vet-care"
           className="block items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-300 hover:text-gray-800 transition-colors font-medium"
         >
           View more information about the project →
-        </a>
+        </Link>
       </section>
     </div>
   );

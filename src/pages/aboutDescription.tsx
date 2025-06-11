@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from './components/navbar';
 import Contact from './components/contact';
-  export default function AboutPage() {
+export default function AboutPage() {
 
     type SectionKey = 'journey' | 'experience' | 'interests' | 'photography' | 'philosophy';
     const [activeSection, setActiveSection] = useState<SectionKey>('journey');
