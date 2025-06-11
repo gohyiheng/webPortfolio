@@ -94,7 +94,7 @@ export default function VetCare() {
               <p className="text-sm font-medium text-gray-600 mb-2">Backend & Framework</p>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">Spring Boot</span>
-                <span className="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">Java</span>
+                <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">Java</span>
                 <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">Maven</span>
               </div>
             </div>
@@ -102,16 +102,19 @@ export default function VetCare() {
             <div>
               <p className="text-sm font-medium text-gray-600 mb-2">Database & Testing</p>
               <div className="flex flex-wrap gap-2">
-                <span className="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">MySQL</span>
+                <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">MySQL</span>
                 <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">JUnit 5</span>
+                <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">JaCoCo</span>
+                <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">Flyway</span>
               </div>
             </div>
             
             <div>
               <p className="text-sm font-medium text-gray-600 mb-2">DevOps & Deployment</p>
               <div className="flex flex-wrap gap-2">
-                <span className="bg-gray-700 text-white px-3 py-1 rounded-full text-sm">Docker</span>
+                <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">Docker</span>
                 <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">GitHub Actions</span>
+                <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">GitHub Projects</span>
               </div>
             </div>
           </div>
@@ -132,9 +135,7 @@ export default function VetCare() {
           Watch Demo →
         </a>
         <a
-          href="https://drive.google.com/file/d/1kmUzmaVhK5Ifna0Uw_fqj-_BH6J9Y8je/view?usp=drive_link"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/projects_detailed/vet-care"
           className="block items-center bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-300 hover:text-gray-800 transition-colors font-medium"
         >
           View more information about the project →

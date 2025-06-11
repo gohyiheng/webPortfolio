@@ -9,7 +9,7 @@ const Projects = () => {
 
   const handleProjectClick = (projectId: string) => {
     // Navigate to the specific project page
-    router.push(`/aboutProjects/${projectId}`);
+    router.push(`/projects_detailed/${projectId}`);
   };
 
   const projects = [
