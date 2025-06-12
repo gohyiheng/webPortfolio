@@ -29,7 +29,7 @@ const Projects = () => {
         return <JapanCities />;
       case 'vacuum-game':
         return <VacuumGame />;
-      case 'village-gen':
+      case 'minecraft':
         return <MinecraftVillageGenerator />
       default:
         return null;
@@ -53,7 +53,7 @@ const Projects = () => {
       subtitle: 'Social media for dog owners',
     },
     {
-      id: 'village-gen',
+      id: 'minecraft',
       title: 'Minecraft Village Generator',
       subtitle: 'Tool to auto-generate villages in Minecraft',
     },

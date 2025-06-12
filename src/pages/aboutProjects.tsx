@@ -20,7 +20,7 @@ const Projects = () => {
       image: '/img/cover/vetcare_cover.png',
     },
     {
-      id: 'village-gen',
+      id: 'minecraft',
       title: 'Minecraft Village Generator',
       subtitle: 'Tool to auto-generate villages in Minecraft',
       image: '/img/cover/minecraft_cover.png',
