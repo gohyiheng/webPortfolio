@@ -39,7 +39,7 @@ const Projects = () => {
       image: '/img/cover/vacuum_cover.png',
     },
     {
-      id: 'closing-the-gap',
+      id: 'ctg',
       title: 'Closing The Gap',
       subtitle: 'Progress Tracker Web Application',
       image: '/img/cover/ctg_cover.png',
