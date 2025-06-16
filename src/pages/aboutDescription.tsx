@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 import Navbar from './components/navbar';
 import Contact from './components/contact';
 export default function AboutPage() {
@@ -56,21 +57,21 @@ export default function AboutPage() {
             <div className="space-y-4">
               <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
                 <h4 className="font-medium text-gray-900 mb-2">Gaming</h4>
-                <p className="text-gray-700 text-sm">Passionate about JRPGs, card games, and roguelikes. I appreciate the strategic thinking and systematic progression these genres offer.</p>
+                <p className="text-gray-700 text-sm">Passionate about JRPGs, card games, and roguelikes.</p>
               </div>
               <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
                 <h4 className="font-medium text-gray-900 mb-2">Photography</h4>
-                <p className="text-gray-700 text-sm">Capturing moments and perspectives, with an eye for composition and detail.</p>
+                <p className="text-gray-700 text-sm">Capturing moments and perspectives in my daily life.</p>
               </div>
             </div>
             <div className="space-y-4">
               <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
                 <h4 className="font-medium text-gray-900 mb-2">Badminton & Bowling</h4>
-                <p className="text-gray-700 text-sm">Active pursuits that keep me physically engaged and provide opportunities for strategic thinking.</p>
+                <p className="text-gray-700 text-sm">Active pursuits that keep me physically engaged and provide opportunities for mental growth.</p>
               </div>
               <div className="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
                 <h4 className="font-medium text-gray-900 mb-2">Learning Japanese</h4>
-                <p className="text-gray-700 text-sm">Currently expanding my linguistic abilities, embracing the challenge of mastering a new language and culture.</p>
+                <p className="text-gray-700 text-sm">Currently expanding my linguistic abilities to broaden my cultral understanding.</p>
               </div>
             </div>
           </div>
@@ -85,42 +86,68 @@ export default function AboutPage() {
                 A collection of moments captured through my lens.
               </p>
             </div>
-            
             {/* Photo Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {/* Photo Card Template - You can replace these with your actual photos */}
-              {[1, 2, 3, 4, 5, 6].map((index) => (
-                <div key={index} className="group relative bg-gray-100 rounded-lg overflow-hidden shadow-sm border border-gray-200 aspect-square">
-                  <div className="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
-                    <div className="text-center text-gray-500">
-                      <div className="text-3xl mb-2"></div>
-                      <p className="text-sm">Photo {index}</p>
-                    </div>
-                  </div>
-                  {/* Hover overlay */}
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-end p-4 opacity-0 group-hover:opacity-100">
-                    <div className="text-white text-sm">
-                      <p className="font-medium">Sample Photo Title</p>
-                      <p className="text-xs opacity-90">Camera Settings • Location</p>
+              {/* Define individual photo data */}
+              {[
+                {
+                  id: 1,
+                  src: "/img/portfolio/1.jpg",
+                  title: "Night Waterfall",
+                  details: "Nikon Z5 • f/11 • 50mm"
+                },
+                {
+                  id: 2,
+                  src: "/img/portfolio/2.jpg",
+                  title: "White Cat Whiskers",
+                  details: "Nikon Z5 • f/4 • 50mm"
+                },
+                {
+                  id: 3,
+                  src: "/img/portfolio/3.jpg",
+                  title: "Onomichi Skyline",
+                  details: "Nikon Z5 • f/16 • 100mm"
+                },
+                {
+                  id: 4,
+                  src: "/img/portfolio/4.jpg",
+                  title: "Amanohashidate Post Box",
+                  details: "S22 Ultra"
+                },
+                {
+                  id: 5,
+                  src: "/img/portfolio/5.jpg",
+                  title: "Kure Central Pier Terminal",
+                  details: "Nikon Z5 • f/8 • 50mm"
+                },
+                {
+                  id: 6,
+                  src: "/img/portfolio/6.jpg",
+                  title: "Shimonoseki Playground",
+                  details: "Nikon Z5 • f/2 • 50mm"
+                }
+              ].map((photo) => (
+                <div key={photo.id} className="group relative bg-gray-100 rounded-lg overflow-hidden shadow-sm border border-gray-200 aspect-square">
+                  <Image
+                    src={photo.src}
+                    alt={photo.title}
+                    quality={75}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  {/* Liquid glass overlay with blur effect */}
+                  <div className="absolute inset-0 bg-white/10 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-end">
+                    <div className="w-full bg-black/40 backdrop-blur-md border-t border-white/30 shadow-lg py-3 px-4">
+                      <div className="text-white text-sm drop-shadow-lg">
+                        <p className="font-semibold text-shadow">{photo.title}</p>
+                        <p className="text-xs opacity-90 text-shadow">{photo.details}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
-
-            {/* Photo Upload Instructions */}
-            {/* <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center">
-              <div className="text-2xl mb-3">📷</div>
-              <h4 className="font-medium text-gray-900 mb-2">Add Your Photography</h4>
-              <p className="text-gray-600 text-sm mb-4">
-                Replace the placeholder images above with your actual photographs. You can add image URLs or upload files to showcase your work.
-              </p>
-              <div className="text-xs text-gray-500 space-y-1">
-                <p>• Recommended size: 800x800px or larger</p>
-                <p>• Supported formats: JPG, PNG, WebP</p>
-                <p>• Consider adding captions with camera settings and locations</p>
-              </div>
-            </div> */}
           </div>
         )
       },
