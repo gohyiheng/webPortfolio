@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Navbar from './components/navbar';
 import Contact from './components/contact';
+import Link from 'next/link';
 export default function AboutPage() {
 
     type SectionKey = 'journey' | 'experience' | 'interests' | 'photography' | 'philosophy';
@@ -22,6 +23,23 @@ export default function AboutPage() {
                 <h4 className="text-lg font-medium text-gray-900 mb-2">Singapore Polytechnic</h4>
                 <p className="text-gray-600 text-sm mb-2">2017 - 2020</p>
                 <p className="text-gray-800">Foundation years that introduced me to systematic thinking and technical problem-solving approaches that continue to guide my work today.</p>
+              </div>
+            </div>
+            
+            {/* Resume Download Section */}
+            <div className="mt-8 pt-6 border-t border-gray-200">
+              <div className="text-center">
+                <h4 className="text-lg font-medium text-gray-900 mb-3">Resume</h4>
+                <Link 
+                  href="/yiheng_resume.pdf" 
+                  target="_blank"
+                  className="inline-flex items-center px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-lg"
+                >
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Download Resume
+                </Link>
               </div>
             </div>
           </div>
