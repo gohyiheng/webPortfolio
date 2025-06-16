@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Contact() {
   return (
-      <div className="max-w-5xl pt-12 mx-auto">
+      <div id='contact' className="max-w-5xl pt-12 mx-auto">
         {/* heading */}
 
 
