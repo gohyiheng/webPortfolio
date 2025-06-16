@@ -16,7 +16,7 @@ export default function VetCare() {
                     Closing the Gap
                 </h1>
                 <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto leading-relaxed">
-                    Progress tracking web application for Australia's National Agreement on Closing the Gap with interactive data visualizations.
+                    Progress tracking web application for Australia&#39s National Agreement on Closing the Gap with interactive data visualizations.
                 </p>
                 </div>
                 
@@ -43,7 +43,7 @@ export default function VetCare() {
                     <h2 className="text-4xl font-light text-gray-800">The Challenge</h2>
                     <div className="w-24 h-px bg-gray-300 mx-auto"></div>
                         <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto mt-8">
-                            Tracking progress toward Australia's National Agreement on Closing the Gap requires accessible data visualization tools that help government officials, Indigenous leaders, and the public understand key outcomes and progress over time.
+                            Tracking progress toward Australia&#39s National Agreement on Closing the Gap requires accessible data visualization tools that help government officials, Indigenous leaders, and the public understand key outcomes and progress over time.
                         </p>
                 </div>
             </div>
