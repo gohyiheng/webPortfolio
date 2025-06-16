@@ -37,7 +37,7 @@ export default function VetCare() {
         </section>
 
         {/* Problem Statement */}
-        <section className="py-24 bg-gradient-to-br from-gray-50 to-neutral-50">
+        <section className="py-12 bg-gradient-to-br from-gray-50 to-neutral-50">
             <div className="max-w-4xl mx-auto px-8">
                 <div className="text-center space-y-6">
                     <h2 className="text-4xl font-light text-gray-800">The Challenge</h2>
@@ -55,7 +55,7 @@ export default function VetCare() {
         </section>
 
         {/* Solution Overview */}
-        <section className="py-24 bg-gradient-to-br from-gray-50 to-neutral-50">
+        <section className="py-12 bg-gradient-to-br from-gray-50 to-neutral-50">
             <div className="max-w-6xl mx-auto px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-light text-gray-800 mb-6">Our Solution</h2>
@@ -112,7 +112,7 @@ export default function VetCare() {
         </section>
 
         {/* Product section */}
-        <section className="py-24 bg-gradient-to-br from-gray-50 to-neutral-50">
+        <section className="py-12 bg-gradient-to-br from-gray-50 to-neutral-50">
             <div className="max-w-6xl mx-auto px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-light text-gray-800 mb-6">Product Experience</h2>
@@ -192,7 +192,7 @@ export default function VetCare() {
         </section>
 
         {/* Development Process */}
-        <section className="py-24 bg-gradient-to-br from-gray-50 to-neutral-50">
+        <section className="py-12 bg-gradient-to-br from-gray-50 to-neutral-50">
             <div className="max-w-6xl mx-auto px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-light text-gray-800 mb-6">Development Journey</h2>
@@ -294,7 +294,7 @@ export default function VetCare() {
             </div>
         </section>
 
-        <section className="py-24 bg-gradient-to-br from-gray-50 to-neutral-50">
+        <section className="py-12 bg-gradient-to-br from-gray-50 to-neutral-50">
             <div className="max-w-6xl mx-auto px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-light text-gray-800 mb-6">Development Approach & Technologies</h2>
@@ -385,20 +385,15 @@ export default function VetCare() {
             </div>
         </section>
 
-      
-
         {/* Resources & Demo */}
-        <section className="py-24 bg-gradient-to-br from-gray-50 to-neutral-50">
+        <section className="py-12 bg-gradient-to-br from-gray-50 to-neutral-50">
             <div className="max-w-4xl mx-auto px-8 text-center">
                 <h2 className="text-4xl font-light text-gray-800 mb-6">Explore VetCare</h2>
                 <div className="w-24 h-px bg-gray-300 mx-auto mb-8"></div>
-                <p className="text-lg text-gray-600 leading-relaxed mb-12">
-                    Experience the platform through our comprehensive demo and detailed project documentation.
-                </p>
-                
                 <div className="grid md:grid-cols-1 gap-6 max-w-2xl mx-auto">
                     <Link
                     href="https://drive.google.com/file/d/1EHZNqgNaIbFR42cohI205vCX2Q0ieUz7/view?usp=drive_link"
+                    target="_blank"
                     className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 hover:bg-white transition-all duration-300 border border-white/50"
                     >
                     <div className="space-y-4">

@@ -277,6 +277,7 @@ export default function VetCare() {
                 <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
                     <Link
                     href="https://www.youtube.com/watch?v=raSy0x0HETk"
+                    target="_blank"
                     className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 hover:bg-white transition-all duration-300 border border-white/50"
                     >
                     <div className="space-y-4">
@@ -297,6 +298,7 @@ export default function VetCare() {
                     </Link>
                     <Link
                     href="https://www.youtube.com/watch?v=raSy0x0HETk"
+                    target="_blank"
                     className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 hover:bg-white transition-all duration-300 border border-white/50"
                     >
                     <div className="space-y-4">
