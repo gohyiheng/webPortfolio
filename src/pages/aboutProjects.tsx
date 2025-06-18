@@ -26,19 +26,19 @@ const Projects = () => {
       image: '/img/cover/minecraft_cover.png',
     },
     // TODO: add detailed desc
-    {
-      id: 'woofya',
-      title: 'Woofya',
-      subtitle: 'Social media for dog owners',
-      image: '/img/cover/woofya_cover.png',
-    },
+    // {
+    //   id: 'woofya',
+    //   title: 'Woofya',
+    //   subtitle: 'Social media for dog owners',
+    //   image: '/img/cover/woofya_cover.png',
+    // },
     // TODO: add detailed desc
-    {
-      id: 'vacuum-game',
-      title: 'Vacuum Cleaner Game',
-      subtitle: 'Simple interactive game project',
-      image: '/img/cover/vacuum_cover.png',
-    },
+    // {
+    //   id: 'vacuum-game',
+    //   title: 'Vacuum Cleaner Game',
+    //   subtitle: 'Simple interactive game project',
+    //   image: '/img/cover/vacuum_cover.png',
+    // },
     {
       id: 'ctg',
       title: 'Closing The Gap',
@@ -46,12 +46,12 @@ const Projects = () => {
       image: '/img/cover/ctg_cover.png',
     },
     // TODO: add detailed desc
-    {
-      id: 'Japan-cities',
-      title: 'Japan Travel Recommender',
-      subtitle: 'Ranks cities in japan based on data from japan guide',
-      image: '',
-    },
+    // {
+    //   id: 'Japan-cities',
+    //   title: 'Japan Travel Recommender',
+    //   subtitle: 'Ranks cities in japan based on data from japan guide',
+    //   image: '',
+    // },
   ];
 
   return (
